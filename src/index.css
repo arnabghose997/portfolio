@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Anton", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-[#F5F5F4] antialiased;
+  }
+}
+
+.markdown-content {
+  @apply text-lg leading-relaxed opacity-80;
+}
+
+.markdown-content h1 {
+  @apply text-4xl font-bold uppercase tracking-tighter mt-16 mb-8 text-white opacity-100;
+}
+
+.markdown-content h2 {
+  @apply text-2xl font-bold uppercase tracking-tighter mt-12 mb-6 text-white opacity-100;
+}
+
+.markdown-content p {
+  @apply mb-6;
+}
+
+.markdown-content ul {
+  @apply list-disc list-inside mb-8 space-y-2;
+}
+
+.markdown-content li::marker {
+  @apply text-[#F27D26];
+}
+
+.markdown-content blockquote {
+  @apply border-l-4 border-[#F27D26] pl-6 italic mb-8 opacity-100;
+}
+
+.markdown-content strong {
+  @apply text-white opacity-100 font-bold;
+}
+

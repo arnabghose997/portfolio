@@ -1,0 +1,47 @@
+{
+  "name": "Arnab Ghose",
+  "role": "Senior Software Engineer | Backend & Distributed Systems",
+  "headline": {
+    "first": "Distributed",
+    "second": "Systems.",
+    "accent": "Engineered for Scale."
+  },
+  "bio": "Senior Software Engineer specializing in Blockchain protocols and high-performance distributed systems. Currently building Layer-1 infrastructure at Rubix Network.",
+  "avatar": "/arnab.jpg",
+  "socials": {
+    "github": "https://github.com/arnabghose997",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://linkedin.com/in/arnabghose997",
+    "email": "arnab.ghose128@gmail.com"
+  },
+  "about": {
+    "story": "I am a product-focused Software Engineer with over 6 years of experience across Backend development, Distributed Systems, and Web3 technologies. My journey has taken me from automating enterprise processes at TCS to leading the architecture of novel blockchain protocols at Rubix.\n\nI thrive on solving complex scalability challenges, whether it's optimizing transaction throughput by implementing concurrent systems in Go or building robust libraries for Smart Contract developers. I believe in building infrastructure that is both technologically advanced and practically applicable to real-world problems.",
+    "skills": ["Golang", "Rust", "Distributed Systems", "Web3", "Blockchain", "Python", "PySpark", "Big Data", "RPA", "SQL", "Git"]
+  },
+  "projects": [
+    {
+      "id": "project-01",
+      "title": "Rubix Blockchain Protocol",
+      "description": "Led the development of core components for a Layer-1 Blockchain Network based on a novel Proof-of-Pledge consensus, optimizing for high throughput and validation efficiency.",
+      "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2070&auto=format&fit=crop",
+      "tags": ["Go", "Distributed Systems", "Blockchain"],
+      "link": "https://github.com/arnabghose997"
+    },
+    {
+      "id": "project-02",
+      "title": "AgentDNA",
+      "description": "A decentralized digital identity framework built on Layer-1 blockchain, enabling secure ownership and management of user identities with Tendermint BFT.",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
+      "tags": ["Tendermint", "Cosmos SDK", "Golang", "W3C DID"],
+      "link": "https://github.com/arnabghose997"
+    },
+    {
+      "id": "project-03",
+      "title": "Smart Contract SDK",
+      "description": "Developed robust cross-platform libraries in Golang and Rust to provide a seamless developer experience for building and deploying Smart Contracts.",
+      "image": "https://images.unsplash.com/photo-1644088379091-d574269d422f?q=80&w=2070&auto=format&fit=crop",
+      "tags": ["Rust", "WASM", "SDK", "DevEx"],
+      "link": "https://github.com/arnabghose997"
+    }
+  ]
+}
